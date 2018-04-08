@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9f00f5</color>
+    <color name="colorPrimaryDark">#a111c5</color>
+    <color name="colorBackgroundTextField">#1a0120</color>
+    <color name="colorTextField">#ffffff</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="buttonColorPrimary">#F50057</color>
+    <color name="buttonColorPrimaryDark">#C51162</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_500">#c2bfbf</color>
+    <color name="year">#999999</color>
+    <color name="title">#000000</color>
+    <color name="bg1">#02182fb8</color>
+    <color name="bg2">#ffffff</color>
+    <color name="unread">#454527a0</color>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:paddingLeft="50dp"
+        android:paddingRight="16dp"
+        android:visibility="visible"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:clickable="true"
+        android:id="@+id/root_container"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="3dp"
+            android:text="DCM"
+            android:textColor="#cddc39"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rank"
+            android:paddingTop="10dp"
+            android:layout_toRightOf="@+id/rank"
+            android:text="Ndako, Muhammad S."
+            android:textColor="@color/colorTextField"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/seperator_white"
+            android:layout_below="@+id/rank"
+            />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rank"
+        android:layout_marginTop="13dp"
+        android:gravity="right"
+        android:text="ACM (Hos MVN)"
+        android:textColor="@color/gray_500" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/position"
+        android:gravity="left"
+        android:text="07034634717"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/close_button" />
+
+
+
+    </RelativeLayout>

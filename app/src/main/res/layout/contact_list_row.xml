@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="50dp"
+    android:paddingRight="16dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:id="@+id/mylayout"
+    android:background="@color/bg1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rank"
+        android:textColor="#4e342e"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="DCM"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/title"
+        android:textSize="16dp"
+        android:text="Ndako, Muhammad S."
+        android:layout_alignTop="@+id/rank"
+        android:layout_toRightOf="@+id/rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:alpha="0.1"
+        android:background="@drawable/seperator"
+        android:layout_below="@+id/rank"
+        />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rank"
+        android:layout_marginTop="13dp"
+        android:gravity="right"
+        android:text="ACM (Hos MVN)"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rank"
+        android:layout_marginTop="11dp"
+        android:gravity="left"
+        android:text="07034634717"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/phone_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="2"
+        android:textColor="#d32f2f"
+        android:textSize="12dp"
+        tools:textColor="@android:color/holo_orange_dark" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:id="@+id/mylayout"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/posted_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#32cccccc"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:text="Charles Mohammed (DCM)"
+        android:textColor="#4e342e"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/date"
+        android:text="12/12/2017"
+        android:textColor="#3e2723"
+        android:textSize="8dp"
+        android:paddingTop="0dp"
+        android:paddingRight="3dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/content"
+        android:textColor="@color/title"
+        android:textSize="14dp"
+        android:text="The federal Government of \nhiiiiid ds fsd f\n sdkfjklsdjflksdf\nsdkjflkdjfsaf\nskljdfklsfsf\nNigeria has warned \n\nthat spokers are elegable"
+        android:layout_below="@+id/posted_by"
+        android:layout_toRightOf="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/link"
+        android:text="http://google.com"
+        android:textSize="10dp"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:textColorLink="@color/colorPrimary"
+        android:clickable="true"
+        android:textColor="#3949ab"
+        android:layout_below="@id/content"
+        android:textStyle="italic"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/posted_by"
+        android:src="@drawable/downloading"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
